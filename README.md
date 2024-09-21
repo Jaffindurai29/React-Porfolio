@@ -35,7 +35,7 @@ To run this project locally, follow these steps:
 
 1. Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/Jaffindurai29/React-Porfolio.git(https://github.com/Jaffindurai29/React-Porfolio/)
+   git clone https://github.com/Jaffindurai29/React-Porfolio.git
    ```
    
 2. Navigate to the project directory:
