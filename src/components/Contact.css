@@ -1,0 +1,103 @@
+/* Contact Section */
+.contact {
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+  }
+  
+  .contact h2 {
+    text-align: center;
+    font-size: 4.5rem;
+    margin-bottom: 3rem;
+  }
+  
+  .contact h2 span {
+    color: var(--main-color);
+  }
+  
+  .contact p {
+    text-align: center;
+    font-size: 1.6rem;
+    margin-bottom: 3rem;
+  }
+  
+  /* Contact Form Container */
+  .contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact form {
+    max-width: 70rem;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  /* Input Fields and Textareas */
+  .contact .input-box {
+    display: flex;
+    flex-direction: column; /* Adjusted for full-width inputs */
+    gap: 2rem;
+  }
+  
+  .contact input,
+  .contact textarea {
+    width: 100%; /* Ensure all fields take the full width */
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    color: var(--text-color);
+    background: var(--second-bg-color);
+    margin: 0.7rem 0;
+    border-radius: 0.8rem;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Input Field Focus State */
+  .contact input:focus,
+  .contact textarea:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  /* Textarea Settings */
+  .contact textarea {
+    resize: none;
+    height: 15rem;
+  }
+  
+  /* Button Styles */
+  .contact .btn {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    width: 100%;
+  }
+  
+  /* Button Hover State */
+  .contact .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .contact-form {
+      padding: 15px;
+    }
+  
+    .contact-form input,
+    .contact-form textarea {
+      font-size: 14px;
+    }
+  }
+  

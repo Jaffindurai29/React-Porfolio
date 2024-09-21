@@ -1,0 +1,46 @@
+.skills {
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+}
+
+.skills h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 2rem;
+}
+
+.skill-item {
+    background: var(--second-bg-color);
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: 0.2rem solid var(--bg-color);
+    transition: transform 0.5s ease, border-color 0.5s ease;
+}
+
+.skill-item:hover {
+    border-color: var(--main-color);
+    transform: scale(1.02);
+}
+
+.skill-item i {
+    font-size: 3rem; /* Adjusted icon size */
+    color: var(--main-color);
+    margin-bottom: 1rem;
+}
+
+.skill-item h2 {
+    font-size: x-large;
+    margin-bottom: 1rem;
+}
+
+.skill-item p {
+    font-size: larger;
+    color: var(--text-color);
+}

@@ -1,0 +1,85 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: var(--bg-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2rem; /* Adjusted padding for better spacing */
+  z-index: 100;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px; /* Limit the maximum width for better alignment */
+  margin: 0 auto; /* Center the container */
+}
+
+.logo {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: var(--text-color);
+  transition: color 0.3s;
+}
+
+.logo:hover {
+  color: var(--main-color); /* Change logo color on hover */
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 2rem; /* Space between navbar items */
+}
+
+.navbar a {
+  font-size: 1.6rem; /* Slightly smaller font for better proportion */
+  color: var(--text-color);
+  transition: color 0.3s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+  color: var(--main-color);
+}
+
+.menu-icon {
+  display: none;
+  color: var(--text-color);
+  cursor: pointer;
+  font-size: 3rem; /* Adjusted icon size for better visibility */
+}
+
+@media (max-width: 768px) {
+  .navbar {
+      display: none; /* Hide navbar on mobile */
+      flex-direction: column; /* Change to column layout when visible */
+      position: absolute;
+      top: 100%; /* Position below the header */
+      left: 0;
+      width: 100%;
+      background: var(--bg-color);
+      padding: 1rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      transition: max-height 0.3s ease-in-out;
+  }
+
+  .navbar.active {
+      display: flex; /* Show navbar when active */
+  }
+
+  .menu-icon {
+      display: block; /* Show the menu icon on mobile */
+  }
+
+  .navbar a {
+      display: block;
+      font-size: 2rem;
+      margin: 3rem 0;
+  }
+}
