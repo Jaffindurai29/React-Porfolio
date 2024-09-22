@@ -1,5 +1,5 @@
 import React from 'react';
-import './Skills.css'; // Create this CSS file accordingly
+import './Skills.css'; 
 
 const skillsData = [
   { icon: 'fab fa-html5', title: 'HTML5', description: 'Advanced knowledge in structuring web content using HTML5 standards.' },
