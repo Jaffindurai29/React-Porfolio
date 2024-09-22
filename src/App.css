@@ -84,7 +84,6 @@ span {
     box-shadow: 0 0 1rem var(--main-color);
 }
 
-/* Responsive Font Sizes */
 @media(max-width: 1200px) {
     html {
         font-size: 55%;
@@ -92,15 +91,15 @@ span {
 }
 
 @media(max-width: 991px) {
-    /* Additional styles can go here if needed */
+
 }
 
 @media(max-width: 768px) {
-    /* Additional styles can go here if needed */
+    
 }
 
 @media(max-width: 617px) {
-    /* Additional styles can go here if needed */
+    
 }
 
 @media(max-width: 450px) {
