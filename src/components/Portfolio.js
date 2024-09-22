@@ -1,5 +1,5 @@
 import React from 'react';
-import './Portfolio.css'; // Create this CSS file accordingly
+import './Portfolio.css'; 
 
 const portfolioData = [
   {
