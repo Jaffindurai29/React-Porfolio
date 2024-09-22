@@ -1,5 +1,5 @@
 import React from 'react';
-import './Services.css'; // Create this CSS file accordingly
+import './Services.css';
 
 const servicesData = [
   { title: 'Web Development', description: 'Crafting high-performance websites that not only look stunning but deliver an unparalleled user experience.' },
